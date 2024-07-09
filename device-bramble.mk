@@ -216,3 +216,5 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/product-sysconfig-stock.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/product-sysconfig-stock.xml
 PRODUCT_PACKAGES += bramble_product_compatibility_matrix.xml
+
+PRODUCT_PACKAGES += com.android.vndk.current.on_vendor
